@@ -3,28 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Bodge</title>
+    <title>Top Bodge - Animated</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav>
+            <div class="logo">Top Bodge</div>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="hero">
-            <h1>Welcome to Top Bodge</h1>
-            <p>Your one-stop shop for... bodge!</p>
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to Top Bodge</h1>
+                <p class="hero-subtitle">Where we bodge things, properly.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>What we do</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam vitae nisl aliquam ultricies. Donec nec nisl vitae nisl aliquam ultricies. Donec nec nisl vitae nisl aliquam ultricies. Donec nec nisl vitae nisl aliquam ultricies.</p>
+            </div>
+        </section>
+
+        <section class="image-section">
+            <img src="https://picsum.photos/seed/picsum/1200/600" alt="Random placeholder image">
+        </section>
+
+        <section class="content-section bg-dark">
+            <div class="container">
+                <h2>Our Philosophy</h2>
+                <p class="fade-in">"Measure once, cut twice. It's the bodge way." - Anonymous</p>
+                <p class="fade-in">We believe in a hands-on, can-do, and slightly-off-center approach to everything we do. Our results speak for themselves. Sometimes they even shout.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-cards">
+                    <div class="card">
+                        <h3>Bodge-it-Yourself Kits</h3>
+                        <p>Everything you need to make a glorious mess. Instructions optional.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Consultancy</h3>
+                        <p>We'll tell you how we'd bodge it, for a reasonable fee.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Emergency Bodging</h3>
+                        <p>When it absolutely, positively has to be bodged overnight.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 Top Bodge. All rights reserved.</p>
+        <p>&copy; 2025 Top Bodge. All rights reserved. But if you can bodge a copy, we'll be impressed.</p>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
